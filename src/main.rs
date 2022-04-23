@@ -1,6 +1,12 @@
-use std::env;
+use clap::Parser;
+
+#[derive(Parser)]
+struct CLi {
+    targets: Vec<String>,
+    commit_message: String
+}
 
 fn main() {
-    let args: Vec<String> = env::args().collect();   
-    println!("{}", args[1]);
+    let args = CLi::parse();
+    println!("{:?}", args.targets); 
 }
