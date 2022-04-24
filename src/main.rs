@@ -15,6 +15,7 @@ fn main() {
         let files = &args[1..args.len() - 1];
         let commit_message = &args[args.len() - 1];
 
+
         // Add 
         let a_output = Command::new("git")
         .arg("add")
