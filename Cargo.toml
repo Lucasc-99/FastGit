@@ -2,7 +2,13 @@
 name = "fgit"
 version = "0.1.0"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+authors = ["Lucas Cecchi <lucascecchi@gmail.com>"]
+description = "Fast Git: A simple git wrapper"
+readme = "README.md"
+homepage = "https://github.com/Lucasc-99/fgit"
+repository = "https://github.com/Lucasc-99/fgit"
+keywords = ["cli", "git"]
+categories = ["command-line-utilities"]
+license = "MIT"
 
 [dependencies]
