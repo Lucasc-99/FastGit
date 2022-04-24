@@ -1,9 +1,14 @@
 use std::process::Command;
 
+/*
+    
+    Fast Git (fgit)
+    
+    A basic cli script that concatenates git add and git commit
+
+*/
+
 fn main() {
-    /*
-        A basic cli script that concatenates git add and git commit
-    */
 
     let args: Vec<String> = std::env::args().collect();
 
