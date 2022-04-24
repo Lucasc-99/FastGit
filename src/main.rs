@@ -16,18 +16,23 @@ fn main() {
         let commit_message = &args[args.len() - 1];
 
         // Add 
-        let output = Command::new("git")
+        let a_output = Command::new("git")
         .arg("add")
         .args(files)
         .output()
         .expect("failed to execute process");
         
+        println!("{}", String::from_utf8_lossy(&a_output.stdout));
+
         // Commit
-        let output = Command::new("git")
+        let c_output = Command::new("git")
             .arg("commit")
             .arg("-m")
             .arg(commit_message)
             .output()
             .expect("failed to execute process");
+        
+        
+        println!("{}", String::from_utf8_lossy(&c_output.stdout));
     }
 }
