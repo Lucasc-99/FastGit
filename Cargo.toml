@@ -1,12 +1,12 @@
 [package]
-name = "fgit"
+name = "fgi"
 version = "0.1.0"
 edition = "2021"
 authors = ["Lucas Cecchi <lucascecchi@gmail.com>"]
-description = "Fast Git: A simple git wrapper"
+description = "Fast Git: A simple wrapper for git laziness"
 readme = "README.md"
-homepage = "https://github.com/Lucasc-99/fgit"
-repository = "https://github.com/Lucasc-99/fgit"
+homepage = "https://github.com/Lucasc-99/FastGit"
+repository = "https://github.com/Lucasc-99/FastGit"
 keywords = ["cli", "git"]
 categories = ["command-line-utilities"]
 license = "MIT"
