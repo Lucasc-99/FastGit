@@ -12,7 +12,7 @@ fn main() {
     let switch = &args[1];
 
     match switch.as_str() {
-        "commit" => {
+        "c" => {
             if args.len() < 4 {
                 println!("Usage: fgi commit files <message>");
                 return;
