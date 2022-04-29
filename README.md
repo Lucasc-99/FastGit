@@ -9,3 +9,8 @@ $ cargo install fgi
 
 
 # How to use
+
+Add + Commit
+```
+$ fgi c <file_args/add switches> <commit message>
+```
